@@ -9,6 +9,7 @@
 
 html {
     overflow:auto;
+    scroll-behavior: smooth;
 }
 /* inicio do header */
 header{
@@ -294,14 +295,14 @@ main{
 }
 
 #quemSomos div{
-    height: 70%;
+    height: 80%;
     display: flex;
     flex-direction: column;
 
 }
 
 #quemSomos p{
-    font-size: 20px;
+    font-size: 19px;
     width: 100%;;
     height: 70%;
     border: 2px solid black;
@@ -309,6 +310,7 @@ main{
 
 #quemSomos div img{
     width: 100%;
+    height: 100%;
 }
 /* fim da MEDIA sectio 2 */
 
